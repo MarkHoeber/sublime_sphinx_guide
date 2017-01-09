@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+* ${1:this} 
+
+* ${2:this}
+
+* ${3:this}
+
+]]></content>
+  <tabTrigger>ul</tabTrigger> 
+</snippet>

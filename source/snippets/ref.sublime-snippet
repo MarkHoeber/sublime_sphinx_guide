@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+:ref:`${1:this}`
+
+]]></content>
+  <tabTrigger>ref</tabTrigger> 
+</snippet>

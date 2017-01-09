@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.. toctree::
+    :maxdepth: 1
+
+      file
+      file
+      file
+      file
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>toc</tabTrigger>
+</snippet>

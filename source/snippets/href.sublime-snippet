@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+.. |${1:substitution}| raw:: html
+
+  <a href="${2:URL}" target="_blank">${3:link text}</a>
+
+
+]]></content>
+  <tabTrigger>href</tabTrigger> 
+</snippet>
