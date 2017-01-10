@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+.. code-block:: ${1:type}
+  :linenos:
+
+  code
+
+
+]]></content>
+  <tabTrigger>code</tabTrigger> 
+</snippet>

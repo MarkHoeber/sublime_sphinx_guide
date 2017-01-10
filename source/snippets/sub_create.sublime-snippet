@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+.. |${1:substitution-token}| replace:: ${2:text}
+
+]]></content>
+  <tabTrigger>sub-create</tabTrigger> 
+</snippet>

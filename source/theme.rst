@@ -1,5 +1,5 @@
 
-Sphinx Snippets
+Theme
 ################
 
 
