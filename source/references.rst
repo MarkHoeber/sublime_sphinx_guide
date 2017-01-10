@@ -104,8 +104,8 @@ You can also separate the link and the target definition. For example:
   .. _CNN: http://cnn.com/
 
 
-Use External Links Extensions
-*******************************
+Use the External Links Extension
+*********************************
 
 Managing links in large projects with multiple writers can get complicated.
 You want to avoid having multiple definitions for the same link.
