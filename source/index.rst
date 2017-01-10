@@ -26,8 +26,10 @@ Contributions are welcome.
    images
    videos
    conditions
+   architecture
    reuse
    theme
+   styles
    build
    rtd
 

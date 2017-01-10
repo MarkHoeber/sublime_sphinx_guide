@@ -1,4 +1,4 @@
-Tables 
+Use Tables 
 ###################
 
 Tables are very useful for presenting complex information.  With RST and Sphinx, you can create tables in several ways.

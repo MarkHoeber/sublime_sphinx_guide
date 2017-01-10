@@ -1,6 +1,6 @@
 
 
-Code Blocks 
+Show Example Code 
 ###################
 
 To show example code, use the RST ``codeblock`` directive:
@@ -33,14 +33,15 @@ actual code file:
   .. literalinclude:: configuration.json
     :language: JSON
 
-You could add code-block directives for different languages as :ref:`Snippets`.
+You could add code-block directives for different languages as :ref:`snippets<Use Snippets as Shortcuts>`.
 
-Line Numbers 
+Show Line Numbers 
 ***********************
 
 You can add line numbers to code examples with the ``:linenos:`` parameter.
 
 .. code-block:: RST
+  :linenos:
 
   .. code-block:: javascript
     :linenos:
@@ -59,6 +60,61 @@ You can have certain lines in an example highlighted line numbers to code exampl
     :emphasize-lines: 8,10,16
 
     code . . .
+
+Code Examples in Multiple Languages
+*************************************
+
+You might want to show code examples in multiple languages. You can use the
+``sphinxcontrib-osexample`` extension to create code examples to be displayed
+in a tabbed list.  For example:
+
+.. example-code::
+
+  .. code-block:: JSON
+
+    {
+      "key": "value"
+    }
+
+  .. code-block:: python
+
+    pygments_style = 'sphinx'
+
+  
+  .. code-block:: ruby
+
+    print "Hello, World!\n"
+
+
+To enable tabs for multiple code examples, add ``sphinxcontrib.osexample`` to
+the list of extensions in the ``conf.py`` file:
+
+.. code-block:: python
+
+  extensions = ['sphinx.ext.autosectionlabel',
+                'sphinxcontrib.osexample']
+
+Then, to show multiple code examples with tabs, embed the code blocks under the ``.. example-code::`` directive.  The RST text for the code block example above is:
+
+.. code-block:: RST
+
+  .. example-code::
+
+    .. code-block:: JSON
+
+      {
+        "key": "value"
+      }
+
+    .. code-block:: python
+
+      pygments_style = 'sphinx'
+
+    
+    .. code-block:: ruby
+
+      print "Hello, World!\n"
+
 
 Examples 
 ***********************
