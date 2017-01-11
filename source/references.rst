@@ -1,4 +1,4 @@
-Links
+Add Links
 ##################
 
 You can include links to other locations in the
@@ -216,7 +216,7 @@ You are prompted to enter the:
 * URL
 * Python file name
 
-You could also add a Sublime :ref:`snippet<Snippets>` for new links.
+You could also add a Sublime :ref:`snippet<Use Snippets as Shortcuts>` for new links.
 
 Test External Links 
 =========================

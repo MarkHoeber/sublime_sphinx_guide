@@ -4,7 +4,10 @@ import sphinx_bootstrap_theme
 sys.path.append(os.path.abspath('ext'))
 sys.path.append('.')
 
-extensions = ['xref', 'youtube', 'sphinx.ext.autosectionlabel']
+extensions = ['xref', 
+              'youtube', 
+              'sphinx.ext.autosectionlabel',
+              'sphinxcontrib.osexample']
 
 from links.link import *
 from links import *

@@ -1,3 +1,5 @@
 sphinx==1.4.9
 sphinx_bootstrap_theme
 sphinxcontrib-googleanalytics
+sphinx-autobuild
+sphinxcontrib-osexample==0.1.1

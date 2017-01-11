@@ -1,6 +1,6 @@
 
-Sublime Packages
-#################
+Install Sublime Packages
+##########################
 
 To improve the experience of using Sublime to edit RST files, install the
 Sublime packages below.

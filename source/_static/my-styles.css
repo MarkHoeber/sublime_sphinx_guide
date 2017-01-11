@@ -39,3 +39,9 @@ img  {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.highlight {
+
+    background: none;
+    margin-top: 15pt;
+}

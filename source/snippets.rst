@@ -1,6 +1,6 @@
 
-Snippets
-#########
+Use Snippets as Shortcuts
+#################################
 
 Snippets are short fragments of text that you use frequently. Use snippets to
 save yourself tedious typing. Snippets are smart templates that will insert
