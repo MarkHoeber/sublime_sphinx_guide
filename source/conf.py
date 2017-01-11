@@ -46,3 +46,7 @@ html_theme_options = {
 
 exclude_patterns = ['links.rst', 'substitutions.rst', 'atom.rst', 
   'unused/3.rst', 'unused/4.rst', 'unused/14.rst']
+
+rst_epilog = """
+.. include:: substitutions.rst
+"""

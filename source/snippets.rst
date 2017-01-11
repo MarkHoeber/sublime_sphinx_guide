@@ -117,5 +117,3 @@ YouTube Video
 .. literalinclude:: snippets/youtube.sublime-snippet
    :language: xml
 
-
-.. include:: includes.rst
