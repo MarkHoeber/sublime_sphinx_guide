@@ -2,16 +2,16 @@ Create Documentation with RST, Sphinx, and Sublime
 #######################################################
 
 This project captures guidelines and tips for efficiently creating
-documentation using Sphinx and Sublime.
+documentation using :term:`RST`, :term:`Sphinx` and :term:`Sublime Text`.
 
-Sphinx is a tool for compiling sets of RST files into an HTML document. (You
-can also use Sphinx to create many other document formats.)
-
-Sublime is a text editor that you can set up to make writing RST very easy.
+This project is also created using the guidelines it describes.
 
 This document is geared towards content creators, not programmers.
 
-Contributions are welcome.
+Contributions are welcome in the :xref:`GitHub Project`.
+
+Get Started 
+***********************
 
 .. toctree::
    :maxdepth: 1
@@ -19,6 +19,15 @@ Contributions are welcome.
    setup
    packages
    create_project
+   glossary_terms
+
+
+Work with Content
+***********************
+
+.. toctree::
+   :maxdepth: 1
+
    topics
    lists
    notes_warnings
@@ -32,11 +41,17 @@ Contributions are welcome.
    conditions
    glossary
    reuse
+
+
+Deliver Documentation
+***********************
+
+.. toctree::
+   :maxdepth: 1
+
    theme
    styles
    build
    rtd
-   glossary_terms
-
 
 .. add new files to list above to include them in toc
