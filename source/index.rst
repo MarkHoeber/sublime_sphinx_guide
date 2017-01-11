@@ -18,15 +18,18 @@ Contributions are welcome.
 
    setup
    packages
+   topics
+   lists
+   notes_warnings
    snippets
    code_blocks
    tables
    references
-   glossary
    images
    videos
+   inline
    conditions
-   architecture
+   glossary
    reuse
    theme
    styles

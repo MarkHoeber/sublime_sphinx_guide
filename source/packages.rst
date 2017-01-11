@@ -35,6 +35,3 @@ facilitate writing restructuredText with SublimeText. See the demo below.
 
 .. youtube:: otM_tjIi_vY
 
-
-
-.. include:: includes.rst
