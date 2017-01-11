@@ -19,6 +19,7 @@ Get Started
    setup
    packages
    create_project
+   snippets
    glossary_terms
 
 
@@ -31,7 +32,6 @@ Work with Content
    topics
    lists
    notes_warnings
-   snippets
    code_blocks
    tables
    references
