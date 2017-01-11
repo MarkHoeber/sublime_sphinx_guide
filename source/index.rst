@@ -18,6 +18,7 @@ Contributions are welcome.
 
    setup
    packages
+   create_project
    topics
    lists
    notes_warnings
