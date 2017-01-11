@@ -32,6 +32,7 @@ Contributions are welcome.
    styles
    build
    rtd
+   glossary_terms
 
 
 .. add new files to list above to include them in toc
