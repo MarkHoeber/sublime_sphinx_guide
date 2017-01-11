@@ -29,6 +29,41 @@ must manually share the snippet files.
 For a good overview of snippets, see :xref:`Snippets Doc`.
 
 
+Add a Snippet 
+***********************
+
+You add a snippet in Sublime.
+
+#. From the **Tools** menu, select **Developer** >> **New Snippet**.
+
+   A new file opens with the snippet template:
+
+   .. code-block:: XML
+      
+      <snippet>
+        <content><![CDATA[
+      Hello, ${1:name} is a ${2:snippet}.
+      ]]></content>
+        <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+        <!-- <tabTrigger>keystrokes</tabTrigger> -->
+        <!-- Optional: Set a scope to limit where the snippet will trigger -->
+        <!-- <scope>source.rst</scope> -->
+      </snippet>
+    
+#. Modify the content within ``[CDATA[``.
+
+   * To be able to tab through text fields in the snippet, use ``${n:text}``, where ``n`` is the number for the tab order, and ``text`` is the default text in the snippet.
+
+   * To add a key shortcut, uncomment the ``<tabTrigger>`` element and enter the keystrokes that will add the snippet:
+
+     .. code-block:: XML
+        
+        <tabTrigger>code</tabTrigger>
+
+#. Save the file.
+
+You can then add the snippet to RST files by typing the tab trigger text.
+
 Example Snippets 
 ***********************
 
