@@ -1,8 +1,9 @@
-Create Documentation with RST, Sphinx, and Sublime
-#######################################################
+Create Documentation with RST, Sphinx, Sublime, and GitHub
+##############################################################
 
 This project captures guidelines and tips for efficiently creating
-documentation using :term:`RST`, :term:`Sphinx` and :term:`Sublime Text`.
+documentation using :term:`RST`, :term:`Sphinx`, :term:`Sublime Text`, and
+:term:`GitHub`.
 
 This project is also created using the guidelines it describes.
 
@@ -17,11 +18,21 @@ Get Started
    :maxdepth: 1
 
    setup
-   packages
    create_project
    snippets
    glossary_terms
 
+Set up Sublime 
+***********************
+
+.. toctree::
+   :maxdepth: 1
+    
+   packages
+   editor_settings
+   shortcut_keys
+   sublime_tabs
+   snippets
 
 Work with Content
 ***********************
@@ -30,6 +41,7 @@ Work with Content
    :maxdepth: 1
 
    topics
+   indices
    lists
    notes_warnings
    code_blocks
@@ -42,6 +54,11 @@ Work with Content
    glossary
    reuse
 
+Manage Content in GitHub
+****************************
+
+.. toctree::
+   :maxdepth: 1
 
 Deliver Documentation
 ***********************

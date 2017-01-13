@@ -20,7 +20,7 @@ source_suffix = '.rst'
 
 master_doc = 'index'
 
-project = u'RST, Sphinx, and Sublime'
+project = u'RST | Sphinx | Sublime | GitHub'
 copyright = u'2017, Mark Hoeber'
 author = u'Mark Hoeber'
 
