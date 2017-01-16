@@ -19,7 +19,6 @@ Get Started
 
    setup
    create_project
-   snippets
    glossary_terms
 
 Set up Sublime 

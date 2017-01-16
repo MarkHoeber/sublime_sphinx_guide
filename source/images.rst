@@ -2,13 +2,26 @@ Add Images
 ###################
 
 
-You add images to documentation with the ``.. image::`` directive. For example:
+You add images to documentation with the ``.. image::`` directive:
 
 .. code-block:: RST
   
   .. image:: path/filename.png
     :width: 400
     :alt: Alternative text
+
+For example this image:
+
+.. image:: images/get_started_sphinx.png
+ :width: 600
+
+Is added to the RST file in by the following lines:
+
+.. code-block:: RST
+  
+  .. image:: images/get_started_sphinx.png
+     :width: 600
+
 
 Use Image Substitutions 
 ***********************
@@ -32,7 +45,6 @@ Then add the image in content by adding the substitution name:
 
 This is useful if you are using the image multiple times in a project and want
 to manage it in one location.
-
 
 Width
 *******
