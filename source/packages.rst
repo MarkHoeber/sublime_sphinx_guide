@@ -23,8 +23,7 @@ current file in your default browser:
 
 * **Ctr+Alt+O** on Windows
 
-* **Command+Shift+O** on a Mac
-
+* **Command+option+O** on a Mac
 
 
 RST Completion
