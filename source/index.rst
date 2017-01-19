@@ -29,8 +29,7 @@ Set up Sublime
     
    packages
    editor_settings
-   shortcut_keys
-   sublime_tabs
+   sublime_macros
    snippets
 
 Work with Content
