@@ -44,8 +44,11 @@ You must install :xref:`Sphinx Autobuild`.
         --ignore "*.tex" \
         --watch source 
 
+     .PHONY: livehtml
      livehtml:
-       sphinx-autobuild -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+        $(SPHINXAUTOBUILD) -b html $(ALLSPHINXLIVEOPTS) $(BUILDDIR)
+        @echo
+        @echo "Build finished. The HTML pages are in $(BUILDDIR)."
 
 #. From the command prompt, enter:
 
