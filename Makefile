@@ -64,7 +64,7 @@ links.xref_links.update({\"$$link_name\": (en_us_user_text, \"$$link_url\")})" \
 
 .PHONY: html
 html:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
+	$(SPHINXBUILD) -b html $(ALLSPHINXLIVEOPTS) $(BUILDDIR)
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)."
 
