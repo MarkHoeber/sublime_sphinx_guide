@@ -56,7 +56,7 @@ You must install :xref:`Sphinx Autobuild`.
 
 The project is built and opens automatically in your browser.
 
-Each time you save a file in the project, it is automatically rebuilt.
+Each time you save a file in the project, it is automatically rebuilt. Just refresh your browser.
    
 .. note:: If there are errors in the project, the automatic build will not complete and the HTML will not be updated.  Check the command window for error details.
 
