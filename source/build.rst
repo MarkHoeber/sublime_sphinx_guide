@@ -26,6 +26,8 @@ You must install :xref:`Sphinx Autobuild`.
 #. In the ``Makefile``, add the lines:
 
    .. code-block:: BASH
+   
+     SPHINXAUTOBUILD = sphinx-autobuild
 
      ALLSPHINXLIVEOPTS   = $(ALLSPHINXOPTS) -q \
         -p 0 \
