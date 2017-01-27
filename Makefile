@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build/html
-LINKSDIR       = source/links
+LINKSDIR       = source/link
 LINKCHECKDIR  = build/linkcheck
 SPHINXAUTOBUILD = sphinx-autobuild
 
