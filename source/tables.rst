@@ -1,12 +1,12 @@
 Use Tables 
 ###################
 
-Tables are very useful for presenting complex information.  With RST and Sphinx, you can create tables in several ways.
+Tables are very useful for presenting complex information.  With |RST| and Sphinx, you can create tables in several ways.
 
 List Table Directive
 ***********************
 
-You can add RST table syntax with ``.. list-table::`` directive.
+You can add |RST| table syntax with ``.. list-table::`` directive.
 
 Each table has the number of columns and their associated relative widths
 indicated in a width tag.
@@ -55,7 +55,7 @@ CSV Files
 
 It's often easier to create tables in a program like Excel than with RST
 syntax. You can then save the table as a CSV file, and reference the CSV file
-in your RST file where you want the table to go.
+in your |RST| file where you want the table to go.
 
 When you have a CSV file, reference it with the ``.. csv-table::`` directive.
 For widths, use the percentage width of each column (without the ``%`` sign).

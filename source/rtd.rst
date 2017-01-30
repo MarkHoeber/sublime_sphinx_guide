@@ -1,6 +1,5 @@
 
-
-Use Read the Docs 
+Use |RTD|
 ###################
 
 Content starts here

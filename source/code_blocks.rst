@@ -3,7 +3,7 @@
 Show Example Code 
 ###################
 
-To show example code, use the RST ``codeblock`` directive:
+To show example code, use the |RST| ``codeblock`` directive:
 
 .. code-block:: RST
 

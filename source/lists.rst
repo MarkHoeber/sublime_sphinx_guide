@@ -1,7 +1,7 @@
 Use Lists
 ##########
 
-This topic shows how to use ordered and unordered lists.
+This topic shows how to use ordered and unordered lists in |RST|.
 
 Ordered Lists
 ***************

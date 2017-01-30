@@ -32,7 +32,7 @@ Set up Sublime
    sublime_macros
    snippets
 
-Work with Content
+Work with |RST| Content
 ***********************
 
 .. toctree::
@@ -55,8 +55,7 @@ Work with Content
 Manage Content in GitHub
 ****************************
 
-.. toctree::
-   :maxdepth: 1
+TBP
 
 Deliver Documentation
 ***********************
