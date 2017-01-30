@@ -5,7 +5,7 @@ You can include links to other locations in the
 same document, to locations in other documents and to external
 websites.
 
-For more information about creating links using RST and Sphinx, see
+For more information about creating links using |RST| and Sphinx, see
 :xref:`Sphinx Hyperlinks`.
 
 Links to Sections in the Same Document

@@ -5,7 +5,7 @@ Write Topics
 A topic, or page, explains to users "what, why, and how".  Typically a topic
 should be short and focused on a single subject.
 
-An RST file in a project becomes one HTML page in the document.
+A |RST| file in a project becomes one HTML page in the document.
 
 Typically a topic starts by explaining abstract ideas and introducing
 terminology. Then the topic covers how users accomplish specific tasks.
@@ -65,7 +65,7 @@ You can use the outline below to start a new topic:
 Use Headings
 *************
 
-The level of a heading is indicated by a series of symbols below the
+In |RST|, the level of a heading is indicated by a series of symbols below the
 heading text. You can use any symbols, as long as you use them
 consistently for each level.
 
