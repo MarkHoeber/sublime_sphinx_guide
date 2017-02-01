@@ -1,8 +1,6 @@
 Create Documentation with RST, Sphinx, Sublime, and GitHub
 ############################################################
 
-Test
-
 This project captures guidelines and tips for efficiently creating
 documentation using :term:`RST`, :term:`Sphinx`, :term:`Sublime Text`, and
 :term:`GitHub`.
