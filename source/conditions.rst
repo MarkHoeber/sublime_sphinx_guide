@@ -36,10 +36,13 @@ To build a project that does include this conditional content, add a command to 
 
   .PHONY: internalhtml
    internalhtml:
-    $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) -t Internal $(BUILDDIR)
+    $(SPHINXBUILD) -b html $(ALLSPHINXOPTS) -t Internal $(INTERNALBUILDDIR)
     @echo
-    @echo "Build finished. The HTML pages are in $(BUILDDIR)."
+    @echo "Build finished. The HTML pages are in $(INTERNALBUILDDIR)."
 
 Then build the project with ``make internalhtml``. The resulting HTML will
 include the internal-only content.
+
+.. note:: This example assumes you have defined **INTERNALBUILDDIR** as a separate location for the built files.  You do not want to place them in the same directly as those built without the conditional text, and have them overwrite the other project.
+
 
