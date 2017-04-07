@@ -43,6 +43,6 @@ To build a project that does include this conditional content, add a command to 
 Then build the project with ``make internalhtml``. The resulting HTML will
 include the internal-only content.
 
-.. note:: This example assumes you have defined **INTERNALBUILDDIR** as a separate location for the built files.  You do not want to place them in the same directly as those built without the conditional text, and have them overwrite the other project.
+.. note:: This example assumes you have defined **INTERNALBUILDDIR** as a separate location for the built files.  You do not want to place them in the same directory as those files built without the conditional text, and have them overwrite the other project.
 
 
