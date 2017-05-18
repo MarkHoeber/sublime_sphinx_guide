@@ -55,7 +55,12 @@ Work with |RST| Content
 Manage Content in GitHub
 ****************************
 
-TBP
+.. toctree::
+   :maxdepth: 1
+
+   github_repo
+   github_changes
+
 
 Deliver Documentation
 ***********************
