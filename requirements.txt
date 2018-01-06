@@ -1,4 +1,4 @@
-sphinx==1.4.9
+sphinx==1.6.4
 sphinx_bootstrap_theme
 sphinxcontrib-googleanalytics
 sphinx-autobuild
