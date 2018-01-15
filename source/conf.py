@@ -78,6 +78,9 @@ html_theme_options = {
   'source_link_position': "footer",
 }
 
+def setup(app):
+    app.add_stylesheet("my-styles.css") 
+    
 """
 Tells the project to ignore certain files in the build process.
 """
