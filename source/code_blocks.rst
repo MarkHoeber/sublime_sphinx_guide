@@ -3,11 +3,11 @@
 Show Example Code 
 ###################
 
-To show example code, use the |RST| ``codeblock`` directive:
+To show example code, use the |RST| ``code-block`` directive:
 
 .. code-block:: RST
 
- .. codeblock:: language
+ .. code-block:: language
 
     code
 
@@ -23,7 +23,7 @@ directly:
 
   .. include:: my_code_example.txt
 
-The included file must start with the codeblock directive.
+The included file must start with the code-block directive.
 
 Alternatively, you can use the ``literalinclude`` directive to include an
 actual code file:
