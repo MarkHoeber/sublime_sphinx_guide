@@ -69,7 +69,7 @@ todo_include_todos = True
 """
 Tells the project which theme to use, and the theme options.
 """
-html_theme = 'bootstrap'
+html_theme = 'default'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 html_theme_options = {
