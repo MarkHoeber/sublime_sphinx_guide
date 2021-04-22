@@ -17,7 +17,7 @@ this text in another part of this document would link to this section:
 
 .. code-block:: RST
 
-  :ref:`Cross-References to Locations in the Same Document`
+  :ref:`Links to Sections in the Same Document`
 
 .. note:: Make sure you have ``sphinx.ext.autosectionlabel`` in your extensions in your conf.py file. For example, ``extensions = ['sphinx.ext.autosectionlabel']``
 
@@ -32,21 +32,21 @@ syntax, as in the following example.
 
 .. code-block:: RST
 
-  Learn how to :ref:`link to a different section<Cross-References to Locations in the Same Document>`.
+  Learn how to :ref:`link to a different section<Links to Sections in the Same Document>`.
 
 .. note::
   Do not include a space between the last word of the link text and the opening
   angle bracket for the anchor text.
 
-In this example, **link to a different section** is the link text, and **Cross-
-References to Locations in the Same Document** is the heading text.
+In this example, **link to a different section** is the link text, and **Links
+to Sections in the Same Document** is the heading text.
 
-Use a Custom Anchor 
+Use a Custom Anchor
 =========================
 
 When you have two sections with the same title in a project, you will get
 build errors when you have a link to either section, because Sphinx does not
-know which section to link to. 
+know which section to link to.
 
 In this case, you can create a custom *anchor* directly above the title and
 link to it, instead of the title itself. For example, if you have a section
@@ -189,7 +189,7 @@ For example, the following additions to the ``Makefile`` enable you to create
 a link from the command line (without error checking):
 
 .. code-block:: bash
-  
+
   LINKSDIR       = source/links
   .PHONY: link
   link:
@@ -218,7 +218,7 @@ You are prompted to enter the:
 
 You could also add a Sublime :ref:`snippet<Use Snippets as Shortcuts>` for new links.
 
-Test External Links 
+Test External Links
 =========================
 
 You can use the built-in Sphinx command, ``checklinks`` to test all external
@@ -228,7 +228,7 @@ at the given URL and reports any errors.
 Add the following code to the project ``Makefile``:
 
 .. code-block:: bash
-  
+
   LINKCHECKDIR  = build/linkcheck
 
   .PHONY: checklinks
@@ -240,7 +240,7 @@ Add the following code to the project ``Makefile``:
 Then, from the command window, enter:
 
 .. code-block:: bash
-  
+
   make checklinks
 
 Sphinx compiles the document and tests all links. It shows the results in the
