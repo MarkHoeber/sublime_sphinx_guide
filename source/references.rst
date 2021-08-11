@@ -17,7 +17,7 @@ this text in another part of this document would link to this section:
 
 .. code-block:: RST
 
-  :ref:`Cross-References to Locations in the Same Document`
+  :ref:`Links to Sections in the Same Document`
 
 .. note:: Make sure you have ``sphinx.ext.autosectionlabel`` in your extensions in your conf.py file. For example, ``extensions = ['sphinx.ext.autosectionlabel']``
 
