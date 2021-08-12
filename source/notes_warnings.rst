@@ -3,7 +3,7 @@ Use Notes and Warnings
 
 Use notes and warnings to make a sentence stand out visually.
 
-In |RST|, you specify notes are warnings through directives (the ``..`` syntax).
+In |RST|, you specify notes and warnings through directives (the ``..`` syntax).
 
 Notes
 *******
