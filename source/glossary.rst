@@ -1,4 +1,4 @@
-Add a Glossary 
+Add a Glossary
 ###################
 
 Sphinx has a built-in Glossary structure that you can use to:
@@ -11,21 +11,24 @@ Create a Glossary
 ******************
 
 To add glossary terms, you use the directive ``.. glossary::``. Write each
-glossary entry as a definition list, with a term, followed by a single-line
-indented definition.
+glossary entry as a definition list, with a term, followed by an indented single or multiple line definition.
 
-Each glossary entry is nested below the ``.. Glossary::`` directive.  For
+Each glossary entry is nested below the ``.. glossary::`` directive.  For
 example:
 
 .. code-block:: RST
-  
+
   .. glossary::
-           
-      Sphinx 
-        Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. It was originally created for the Python documentation, and it has excellent facilities for the documentation of software projects in a range of languages. 
+
+      Sphinx
+        Sphinx is a tool that makes it easy to create intelligent and beautiful documentation. It was originally created for the Python documentation, and it has excellent facilities for the documentation of software projects in a range of languages.
 
       RST
-        |RST| is an easy-to-read, what-you-see-is-what-you-get plain text markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. |RST| is designed for extensibility for specific application domains. The |RST| parser is a component of Docutils.
+        |RST| is an easy-to-read, what-you-see-is-what-you-get plain text markup syntax and parser system.
+        It is useful for in-line program documentation (such as Python docstrings),
+        for quickly creating simple web pages, and for standalone documents.
+        |RST| is designed for extensibility for specific application domains.
+        The |RST| parser is a component of Docutils.
 
       Sublime Text
         Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
