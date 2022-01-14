@@ -232,8 +232,9 @@ Add the following code to the project ``Makefile``:
   LINKCHECKDIR  = build/linkcheck
 
   .PHONY: checklinks
-    checklinks:
-    $(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(LINKCHECKDIR)
+
+  checklinks:
+    $(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) "$(SOURCEDIR)" "$(LINKCHECKDIR)"
     @echo
     @echo "Check finished. Report is in $(LINKCHECKDIR)."
 
