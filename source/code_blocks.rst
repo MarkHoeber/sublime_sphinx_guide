@@ -51,15 +51,50 @@ You can add line numbers to code examples with the ``:linenos:`` parameter.
 Highlight Lines 
 ***********************
 
-You can have certain lines in an example highlighted line numbers to code examples with the ``:emphasize-lines:`` parameter. In the following example, line 2 (with the ``:emphasize-lines:`` directive) is highlighted.
+You can have certain lines in an example highlighted line numbers to code examples with the ``:emphasize-lines:`` parameter. In the following example, line 8,10,16 (with the ``:emphasize-lines:`` directive) is highlighted.
 
 .. code-block:: RST
  :emphasize-lines: 2
 
-  .. code-block:: javascript
+  .. code-block:: python
     :emphasize-lines: 8,10,16
 
     code . . .
+
+Demonstrate code as following:
+
+.. code-block:: python
+    :emphasize-lines: 8,10,16
+
+    #!/usr/bin/python
+    # Display the Fibonacci sequence up to n-th term
+
+    count = 0
+    values = []
+
+    def fib(nterms, count):
+        n1, n2 = 0, 1
+        # check if the number of terms is valid
+        if nterms <= 0:
+            print("Enter a positive integer")
+        elif nterms == 1:
+            print("Fibonacci sequence upto", nterms, ":")
+            values.append(n1)
+        else:
+            print("Fibonacci sequence:")
+            while count < nterms:
+                print(n1)
+                values.append(n1)
+                nth = n1 + n2
+                n1 = n2
+                n2 = nth
+                count += 1
+
+        return values
+
+
+    nterms = int(input("How many terms? "))
+    fib(nterms, 0)
 
 Code Examples in Multiple Languages
 *************************************
