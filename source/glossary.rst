@@ -14,7 +14,7 @@ To add glossary terms, you use the directive ``.. glossary::``. Write each
 glossary entry as a definition list, with a term, followed by a single-line
 indented definition.
 
-Each glossary entry is nested below the ``.. Glossary::`` directive.  For
+Each glossary entry is nested below the ``.. glossary::`` directive.  For
 example:
 
 .. code-block:: RST
