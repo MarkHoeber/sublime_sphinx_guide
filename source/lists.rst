@@ -44,9 +44,9 @@ text in the ordered list.
 
     #. Step 1.
 
-        * Item 1.
+       * Item 1.
 
-        * Item 2.
+       * Item 2.
 
     #. Step 2.
 
@@ -96,9 +96,9 @@ uses letters.
 
     #. Step 1.
 
-        #. Step a.
+       #. Step a.
 
-        #. Step b.
+       #. Step b.
 
     #. Step 2.
 
@@ -113,8 +113,8 @@ for ordered lists and two spaces for unordered lists.
 
     #. Step 1. Example:
 
-        .. code-block:: bash
+       .. code-block:: bash
 
-          Example code
+         Example code
 
     #. Step 2.
