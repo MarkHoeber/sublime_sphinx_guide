@@ -18,7 +18,7 @@ Use hash symbols for ordered lists:
  Ordered lists usually use numerals. Nested ordered lists (ordered lists inside
  other ordered lists) use letters.
 
- An ordered lists should have 3-7 items.
+ An ordered list should have 3-7 items.
 
 Unordered Lists
 ***************
@@ -31,7 +31,7 @@ Use asterisks for unordered (bulleted) lists.
     * Item 2.
     * Item 3.
 
-An unordered lists should have 3-7 items.
+An unordered list should have 3-7 items.
 
 Unordered List Inside Ordered List
 *********************************************
