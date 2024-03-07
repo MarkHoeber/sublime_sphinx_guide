@@ -13,7 +13,7 @@ To show example code, use the |RST| ``code-block`` directive:
 
 By specifying the language, you enable *pygments*, which show syntax color
 coding for that code sample. (Ensure that your project ``conf.py`` file
-contains ``pygments_style = 'sphinx')``.
+contains ``pygments_style = 'sphinx'``).
 
 If you might use the same example code in multiple parts of the document or
 multiple documents, you can save it as a separate file and include it
